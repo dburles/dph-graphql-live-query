@@ -10,6 +10,10 @@
     "@n1ru4l/json-patch-plus": "^0.1.4"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "esbuild index.js --bundle --outfile=dist.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.13.12"
   }
 }
