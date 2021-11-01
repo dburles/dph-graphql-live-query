@@ -8,5 +8,8 @@
   "license": "ISC",
   "dependencies": {
     "@n1ru4l/json-patch-plus": "^0.1.4"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
